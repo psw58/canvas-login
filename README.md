@@ -1,12 +1,11 @@
-//using gulp to compile sass
+#using gulp to compile sass
 
 npm init
-//globally install gulp required by windows
+#globally install gulp required by windows
 
 npm install -g gulp
-//install packages
+#install packages
 
-npm install gulp gulp-sass gulp-less gulp-sourcemaps
-//to run gulp listener shell
+npm install gulp gulp-sass gulp-less gulp-sourcemaps #to run gulp listener shell
 
 ctrl-shift-b
