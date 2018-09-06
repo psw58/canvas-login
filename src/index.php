@@ -42,12 +42,7 @@
             font-size: 24px;
             padding: 0.5em 1em;
 		} 
-		a.link-button:active, a.link-button:hover, a.link-button:focus{background: #26587b;color:#fff;}
-
-		/*! CSS Used from: https://canvasstatic.lndo.site/css/cti.css */
-		a{color:#b31b1b;}
-		a:hover,a:focus{color:#ed0000;}
-		a:active{color:#000;}		
+		a.link-button:active, a.link-button:hover, a.link-button:focus{background: #315163;color:#fff;}	
         
         .quote p {
             text-indent: 0em;
@@ -74,7 +69,7 @@
         }
 
     </style>
-	<!-- import polyfills for IE11 -->
+	<!-- import polyfills -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
 	<link rel="import" href="imports/spotlight.html">
 

@@ -13,7 +13,7 @@
         var target = document.getElementById('spotlight');
         target.appendChild(el.cloneNode(true));                     
     }else {
-        console.log('import not supported in ie11 use pollyfill');
+        console.log('import not supported use pollyfill');
         document.addEventListener('WebComponentsReady', function(e) {
             var view = document.querySelector('link[rel="import"]');
             var content = view.import;
@@ -22,6 +22,5 @@
             target.appendChild(el.cloneNode(true));                     
           });        
     }
-
-
-})(jQuery);    
+    
+})(jQuery);
