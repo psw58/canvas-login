@@ -1,0 +1,23 @@
+{
+  "name": "canvas_static",
+  "mode": "development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src/sass/ ./src/css/"
+  },
+  "author": "phil williammee",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

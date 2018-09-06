@@ -1,0 +1,98 @@
+<!--
+    Modify the html content below to change the spotlite showcase
+    structure and classes should remain unchanged
+-->
+<h2 class="h1">Spotlight <em>Showcase</em></h2>
+<div class="view cwd-component cwd-card-grid three-card teaser">
+    <div class="view-content cards">
+        <div class="views-row card">
+            <div class="node">
+                <a href="#">
+                    <div class="group-image field-group field-group-html-element">
+                        <div class="field field-name-field-image">
+                            <img src="images/cti/UP_2016_1375_035_select.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="group-fields field-group field-group-html-element">
+                        <div class="field field-name-category category">
+                            News
+                        </div>
+                        <div class="field field-name-title title">
+                            <h3 class="sans">Linked Article Title Which is Often Long Enough to Wrap to a Second Line</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="views-row card">
+            <div class="node">
+                
+                <a href="#">
+                    <div class="group-image field-group field-group-html-element">
+                        <div class="field field-name-field-image">
+                            <img src="images/cti/UP_2017_1522_002_select.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="group-fields field-group field-group-html-element">
+                        <div class="field field-name-category category">
+                            Teaching
+                        </div>
+                        <div class="field field-name-title title">
+                            <h3 class="sans">External Article Link</h3>
+                        </div>
+                    </div>
+                </a>
+        
+            </div>
+        </div>
+        <div class="views-row card">
+            <div class="node">
+                
+                <a href="#">
+                    <div class="group-image field-group field-group-html-element">
+                        <div class="field field-name-field-image">
+                            <img src="images/cti/UP_2016_1503_006_select.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="group-fields field-group field-group-html-element">
+                        <div class="field field-name-category category">
+                            Help
+                        </div>
+                        <div class="field field-name-title title">
+                            <h3 class="sans">Linked Article Title Which is Often Long Enough to Wrap to a Second Line</h3>
+                        </div>
+                    </div>
+                </a>
+        
+            </div>
+        </div><!--end of card -->
+    </div><!-- end of cards -->
+</div><!--end of teaser -->
+
+<script>
+    /*start Notifications
+    * Modifies innerHTMl of div with id of "notification"
+    * Use "selected_option" to change the selected background color of alert message 
+    * Use message to edit the notification message contents
+    * */
+    (function () { 
+        //modify this message to change the message
+        var message = 'notification    mm/dd/yy: A notification that can be directed towards students, and changes background color, with seven different color options. Which is Often Long Enough to Wrap to a Second Line';
+        //modify this to change background color
+        var selected_option = 2;
+        var options = {
+            1:"default",
+            2:"blue-green",
+            3:"blue",
+            4:"purple",
+            5:"gold",
+            6:"green",
+            7:"red"
+        }
+        var target = document.getElementById('notification');
+        var content = '<div class="panel accent-'+options[selected_option]+' fill">'+
+                        '<p><i class="fas fa-exclamation-triangle exclamation-triangle"></i>'+message+'</p>'+
+                      '</div> ';
+        target ? target.innerHTML = content: console.log('WARNING: unable to locate notifications in DOM');
+    })();
+</script>
