@@ -1,4 +1,3 @@
-    
 (function ($) {
     // start load imports
     function supportsImports() {

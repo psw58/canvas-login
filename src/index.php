@@ -4,74 +4,24 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Template - Cornell CSS Framework</title>
+	<link rel="shortcut icon" href="/images/cornell/favicon.ico" type="image/vnd.microsoft.icon">
+	<title>Cornell at Canvas</title>
 	
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i|Lato:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="css/base.css" rel="stylesheet">
 	<link href="css/cornell.css" rel="stylesheet">
-    <link href="css/cti.css" rel="stylesheet">
-    <style>
-        #site-header > div > div.band > div > div > div.primary > h2 > em{
-            color: #b31b1b;
-        } 
-        #site-header > div > div.container-fluid > div{
-            margin-bottom: 20px;
-        }
+	<link href="css/cti.css" rel="stylesheet">
+	<link href="css/canvas.css" rel="stylesheet">
 
-        .flex{
-            display: flex;
-
-        }
-
-        #site-header > div > div.band > div > div > div.primary{
-            background: #cce0e6;
-            text-align: center;
-            padding: 30px;
-            padding-left: 50px;
-            background-size: contain;                  
-            background-image: url('./images/cti/canvas transparentlogo3.png');
-            background-repeat:   no-repeat;
-            background-position: -200px;              
-        }      
-        #site-header > div > div.band > div > div > div.secondary{
-            /*padding: 0px 0px 0px 30px;*/
-        }
-
-        a.link-button{
-            font-size: 24px;
-            padding: 0.5em 1em;
-		} 
-		a.link-button:active, a.link-button:hover, a.link-button:focus{background: #315163;color:#fff;}	
-        
-        .quote p {
-            text-indent: 0em;
-        }
-
-       @media (min-width: 1200px){
-        .banner-flex:before {
-            } 
-        }
-
-
-        @media (min-width: 768px){
-            #site-header > div > div.band > div > div > div.primary{
-                width: 50%;
-            }
-            #site-header > div > div.band > div > div > div.secondary{
-            width: 50%;
-            }       
-        } 
-
-        #notification > div > p > i  {
-            padding-right: 5px;
-            font-size: 1.2em;
-        }
-
-    </style>
-	<!-- import polyfills -->
+	<!-- polyfills for html imports -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
-	<link rel="import" href="imports/spotlight.html">
+	<link rel="import" href="imports/showcase.html">
+
+	<style>
+		/* test your styles here */
+
+	</style>
 
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -113,7 +63,7 @@
 					<nav id="utility-navigation" aria-label="Supplementary Navigation">
 						<ul class="list-menu links">
 							<li><a href="#">About Us</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="mailto:canvas@cornell.edu">Contact Us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -132,8 +82,11 @@
 							<div class="primary">
                             <h2 class='h1'>Log Into <em>Canvas</em></h2>
                             <p>
-                                <a class='link-button'>NetID</a>
-                            </p>
+                                <a class='link-button'>Cornell NetID</a>
+							</p>
+                            <p>
+                                <a class='link-button'>Weill ID</a>
+                            </p>							
                             <p>
                                 <a class='link-button'>Guest</a>
                             </p>
@@ -147,26 +100,23 @@
 								<div class="quote">
 									<h2 class="-sr-and-mobile-only">Copyright Statement</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et mollis nisi. Sed nec finibus justo. Vivamus hendrerit tellus id enim ornare fringilla. Ut justo arcu, sagittis et ligula et, commodo varius elit. Aenean feugiat tempor dui vel pharetra. Nullam ut massa ultricies, semper magna nec, placerat mi. Nulla in nibh quis dui tempor tempus vitae ut augue. Nullam ut vehicula purus. Quisque bibendum venenatis tincidunt.</p>
-<p>Sed blandit viverra consectetur. Nam vel dignissim orci. Ut elementum turpis ac porttitor sollicitudin. Morbi ullamcorper justo ante, a aliquam lacus facilisis imperdiet. Nam volutpat, tellus ut gravida maximus, augue velit sodales enim, ultrices. Aenean. In et diam congue, placerat nunc ut, condimentum risus.</p>
-                                <p><a href='http://www.cornell.edu/copyright.cfm'>Copyright</a></p>
+									<p>Sed blandit viverra consectetur. Nam vel dignissim orci. Ut elementum turpis ac porttitor sollicitudin. Morbi ullamcorper justo ante, a aliquam lacus facilisis imperdiet. Nam volutpat, tellus ut gravida maximus, augue velit sodales enim, ultrices. Aenean. In et diam congue, placerat nunc ut, condimentum risus.</p>
+                                	<p><a href='http://www.cornell.edu/copyright.cfm'>Copyright</a></p>
 								</div>
 								<!-- <p><a class="link-button faculty-button" href="#"><span class="icon icon-info-news"></span><span class="deco">New Faculty</span></a></p> -->
 							</div>
-					
 						</div>
 					</div>
 				</div>
 			</div>
-		
 		</header>
 	</div>
 
 	<div id="main-content" class="band">
 		<main id="main" class="container-fluid aria-target" tabindex="-1">
-		
 			<div class="row">
 				<div id="sidebar-top" class="secondary">
-					
+					<!--html imports rendered here -->
 					<div id='spotlight' class="showcase">
 						
 					</div><!--end of showcase -->
@@ -180,29 +130,20 @@
 			<div class="container-fluid sidebar-left">
 				<div class="row">
 					<div class="primary">
-						<!--h2 class="h3 sr-and-mobile-only">Quick Links</h2-->
-						<!-- <p>Cornell has a variety of resources to help you navigate everything from application to graduation.</p> -->
 						<div class="one-col padded footer-links">
                         <div>
 								<h3 class="h6">Additional Resources</h3>
 								<ul class="list-menu vertical">
-							        <!-- <li><a href="#">Intranet</a></li> -->
 							        <li>If you have a disability and are having trouble accessing information on this website or need materials in an alternate format,<br> Contact <a href="mailto:web-accessibility@cornell.edu">web-accessibility@cornell.edu</a> for assistance.</li>
 								</ul>
 							</div>                            
-							<!--div>
-								<h3 class="h6"></h3>
-								<ul class="list-menu vertical">
-                                <a href="https://www.cornell.edu">Cornell University</a> &copy;2018
-								</ul>
-							</div-->
 						</div>
 
 					</div>
 					<div class="secondary">
 						<h2 class="h4">Canvas at Cornell</h2>
 						<p>Cornell University<br>Ithaca, NY 14853-6601</p>
-						<p><a class="link-block" href="#">Contact Us</a></p>
+						<p><a class="link-block" href="mailto:canvas@cornell.edu">Contact Us</a></p>
 					</div>
 				</div>
 			</div>
@@ -210,13 +151,6 @@
 		<div class="sub-footer">
 			<div class="container-fluid sidebar-left">
 				<div class="row">
-					<!--div class="primary">
-						<ul class="list-menu">
-                            <li><a href="mailto:web-accessibility@cornell.edu">Web Accessibility Help</a></li>
-							< <li><a href="#">Intranet</a></li>>
-							<li>If you have a disability and are having trouble accessing information on this website or need materials in an alternate format,<br> Contact <a href="mailto:web-accessibility@cornell.edu">web-accessibility@cornell.edu</a> for assistance.</li>
-						</ul>
-					</div-->
 					<div class="secondary">
 						<a href="https://www.cornell.edu">Cornell University &copy;2018</a>
 					</div>
@@ -228,11 +162,12 @@
 	<!-- jQuery and Contrib Components -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	
-    <!-- CWD Components -->
+	<!-- Render Notification Banner -->
+	<script src="js/notifications.js"></script>
+	<!-- render HTML imports -->
     <script src="js/loadImports.js"></script>
-    <!--required for search -->
+    <!--CWD required for search -->
 	<script src="js/cwd.js"></script>
 	<script src="js/cwd_utilities.js"></script>    
-
 </body>
 </html>
