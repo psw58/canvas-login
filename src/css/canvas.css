@@ -31,9 +31,9 @@ a.link-button:active, a.link-button:hover, a.link-button:focus {
 
 @media (min-width: 768px) {
   #site-header > div > div.band > div > div > div.primary {
-    width: 50%; }
+    /*width: 50%;*/ }
   #site-header > div > div.band > div > div > div.secondary {
-    width: 50%; } }
+    /*width: 50%;*/ } }
 
 #notification > div > p > i {
   padding-right: 5px;

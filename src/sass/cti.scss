@@ -375,7 +375,7 @@ body > footer {
 	background: #315163;
 	color: #c3cdd2;
 }
-body > footer .sub-footer {
+body, body > footer .sub-footer {
 	background: #2e3337;
 }
 body > footer .main-footer .container-fluid:after {
@@ -1463,7 +1463,6 @@ body.home > .band[role='complementary'] .primary {
 }
 
 /* Homepage */
-/*
 .banner-flex:before {
 	content: '';
 	position: absolute;
@@ -1473,7 +1472,6 @@ body.home > .band[role='complementary'] .primary {
 	width: 50%;
 	background: #cce0e6;
 }
-*/
 .quote {
 	margin: 0 0 4em;
 }
