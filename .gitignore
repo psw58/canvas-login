@@ -1,4 +1,5 @@
 node_modules/
 canvas login*
-fonts/
-vendor/
+src/vendor/bin/
+src/vendor/composer/
+src/vendor/autoload.php
