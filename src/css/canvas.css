@@ -1,4 +1,4 @@
-#site-header > div > div.band > div > div > div.primary > h2 > em {
+#main-article > section > div.primary > h2 > em {
   color: #b31b1b; }
 
 #site-header > div > div.container-fluid > div {
@@ -7,7 +7,7 @@
 .flex {
   display: flex; }
 
-#site-header > div > div.band > div > div > div.primary {
+#main-article > section > div.primary {
   background: #cce0e6;
   text-align: center;
   padding: 30px;
@@ -30,7 +30,7 @@ a.link-button:active, a.link-button:hover, a.link-button:focus {
   text-indent: 0em; }
 
 @media (min-width: 768px) {
-  #site-header > div > div.band > div > div > div.primary {
+  #main-article > section:nth-child > div.primary {
     /*width: 50%;*/ }
   #site-header > div > div.band > div > div > div.secondary {
     /*width: 50%;*/ } }

@@ -17,6 +17,7 @@
 	<link href="css/cwd_slider.css" rel="stylesheet">
 	<link href="css/cwd_utilities.css" rel="stylesheet">
 	<link href="css/cti.css" rel="stylesheet">
+	<link href="css/canvas.css" rel="stylesheet">
 	
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -104,15 +105,22 @@
 				<article id="main-article" class="primary impact">		
 				
 					<section>
-						<h1>Collaboration</h1>
-						
-						<p class="intro">The Center supports Cornell's teaching community with a range of programs and services.</p>
-						<p>The Center for Teaching Innovation will share a new mission integrating Cornell's Center for Teaching Excellence's and Academic Technologies' commitment to the advancement of teaching and learning at Cornell University. We act a resource for Cornell’s teaching community with a range of <a href="#">programs and services</a> centered around effective teaching and innovative learning practices.</p>
-						
-						<figure>
-							<img src="images/cti/sample_photo_large.jpg" alt="Graduating Seniors at Cornell Commencement 2013">
-							<figcaption>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</figcaption>
-						</figure>
+						<div class="primary">
+                            <h2 class='h1'>Log Into <em>Canvas</em></h2>
+                            <p>
+                                <a class='link-button' href='https://cornell.instructure.com/login/saml/1'>Cornell NetID</a>
+							</p>
+                            <p>
+                                <a class='link-button' href='https://cornell.instructure.com/login/saml/2'>Weill ID</a>
+                            </p>							
+                            <p>
+                                <a class='link-button' href='https://cornell.instructure.com/login/canvas'>Guest</a>
+                            </p>
+                            </p>
+                                Help logging in
+                                <a href='#'>Canvas Terms of Use FAQ</a>
+                            </p>
+							</div>
 						
 						<p>A lecturer can organize and summarize major topics within a field and can inform students of the latest issues and trends in research (<a href="#">Davis, 2009</a>).
 				
