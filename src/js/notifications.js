@@ -5,7 +5,7 @@
     * */
    (function () { 
     //modify message variable to change the message
-    var message = 'notification    mm/dd/yy: A notification that can be directed towards students, and changes background color, with seven different color options. Which is Often Long Enough to Wrap to a Second Line';
+    var message = 'notification    mm/dd/yy: A notification bar to provide users with additional information, and changes background color, with seven different color options. Which is Often Long Enough to Wrap to a Second Line';
     //modify this to change background color
     var selected_option = 6;
 

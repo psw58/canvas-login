@@ -7,6 +7,26 @@
 .flex {
   display: flex; }
 
+#notification > div {
+  margin-bottom: 10px; }
+
+.showcase h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4; }
+
+div.card div.node {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 3em; }
+
+div.spotlight div.card {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #b31b1b; }
+
 #main-article > section > div.primary {
   background: #cce0e6;
   text-align: center;
@@ -15,7 +35,8 @@
   background-size: contain;
   /*background-image: url('./images/cti/canvas transparentlogo3.png');*/
   background-repeat: no-repeat;
-  background-position: -200px; }
+  background-position: -200px;
+  margin-bottom: 1.5em; }
 
 a.link-button {
   font-size: 24px;
@@ -35,7 +56,7 @@ a.link-button:active, a.link-button:hover, a.link-button:focus {
   #site-header > div > div.band > div > div > div.secondary {
     /*width: 50%;*/ } }
 
-#notification > div > p > i {
+#notification i {
   padding-right: 5px;
   font-size: 1.2em; }
 

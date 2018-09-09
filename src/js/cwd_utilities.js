@@ -153,7 +153,7 @@ var msie = document.documentMode;
 	//$('.drupal #sidebar-top nav, nav.nav-body').addClass('mobile-expander').prepend('<h1 class="sans nav-heading">In this section<span class="punc">:</span></h1>');
 	//$('.drupal.page-search-site #sidebar-top nav .nav-heading').addClass('hidden').html('Filter results<span class="punc">:</span>');
 	$('.mobile-expander').each(function() {
-		$(this).prepend('<a href="#" aria-hidden="true" class="mobile-expander-heading mobile-only"><span class="zmdi zmdi-menu"></span>More in this Section</a>');
+		$(this).prepend('<a href="#" aria-hidden="true" class="mobile-expander-heading mobile-only"><span class="zmdi zmdi-menu"></span>Help and support links</a>');
 		//if ($(this).children('h1, h2, h3, h4, h5, h6').length > 0) {
 			var expand_header = $(this).children('.mobile-expander-heading').first();
 			$(expand_header).nextAll().wrapAll('<div class="mobile" />');
